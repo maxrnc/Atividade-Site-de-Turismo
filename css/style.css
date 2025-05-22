@@ -1,0 +1,19 @@
+:root{
+    --cor-primaria: rgb(47, 47, 114);
+    --cor-secundaria: white;
+    --cor-texto: white;
+}
+
+.nav-top{
+    background-color: var(--cor-primaria) !important;
+}
+
+.nav-link{
+    color: var(--cor-texto) !important;
+}
+
+footer{
+    background-color: var(--cor-primaria) !important;
+    color: var(--cor-texto) !important;
+    text-align: center !important;
+}
