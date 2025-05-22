@@ -17,3 +17,8 @@ footer{
     color: var(--cor-texto) !important;
     text-align: center !important;
 }
+
+.logo-site{
+    width: 3em !important;
+    border-radius: 50%;
+}
