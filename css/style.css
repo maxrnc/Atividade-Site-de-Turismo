@@ -1,7 +1,9 @@
 :root{
     --cor-primaria: rgb(47, 47, 114);
     --cor-secundaria: white;
+    --cor-caption: rgba(82, 77, 77, 0.739);
     --cor-texto: white;
+    --cor-texto-2: brown;
 }
 
 .nav-top{
@@ -21,4 +23,41 @@ footer{
 .logo-site{
     width: 3em !important;
     border-radius: 50%;
+}
+
+.carousel-caption{
+    background-color: var(--cor-caption) !important;
+}
+
+.divisao{
+    background-color: var(--cor-primaria) !important;
+    text-align: center !important;
+    color: var(--cor-texto) !important;
+    padding: 2em !important;
+}
+
+.sec-pacotes{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 1% !important;
+}
+
+.card{
+    padding: 1% !important;
+    margin: 0% 1% 1% !important;
+}
+
+.card p{
+    text-align: justify !important;
+}
+
+.card h4{
+    color: var(--cor-texto-2) !important;
+}
+
+.sec-contato{
+    margin-bottom: 10% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
 }
